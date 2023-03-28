@@ -13,12 +13,12 @@ int size = Convert.ToInt32(Console.ReadLine());// Заполняем масси�
 string[] arrayStrings = new string[size];
 for (int i = 0; i < size; i++)
 {
-    System.Console.WriteLine($"Введите {i + 1} элемент: ");
+    System.Console.WriteLine($"Введите {i + 1} элемент: "); 
     string symbol = Console.ReadLine()!;
     arrayStrings[i] = symbol;
 }
 
-string[] arrayFinal = new string[size];
+string[] arrayFinal = new string[size];// Проверка массива согласно задания
 int length = 3;
 int count = 0;
 
